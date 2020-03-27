@@ -31,7 +31,7 @@
         		</tbody>
         	</table>
         </div>
-        {!! $services->render() !!}
+        {{ $services->links() }}
     
     @else
         <p>Sorry! No results matched your query.</p>
